@@ -285,12 +285,29 @@ h1+p {
   position: relative;
   transform: rotateX(calc(var(--rX) * 1deg)) rotateY(calc(var(--rY) * 1deg));
 
-  background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("try.jpg");
-  background-size: 40rem auto;
-  box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
+
 
   transition: transform .6s 1s;
 }
+
+.container1 {
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("http://zigis.com.au/wp-content/uploads/2014/05/holiday2013_front.jpg");
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
+  }
+.container2 {
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/leopard2.jpg");
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
+  }
+  .container3 {
+  
+    background: linear-gradient(hsla(0, 0%, 100%, .1), hsla(0, 0%, 100%, .1)), url("http://zigis.com.au/wp-content/uploads/2014/05/holiday2013_front.jpg");
+    background-size: 40rem auto;
+    box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
+  }
+  
+  
 
 .container::before,
 .container::after {
@@ -336,8 +353,8 @@ h1+p {
 }
 
 .container p {
-  color: hsla(0, 0%, 100%, .6);
-  font-size: 1.5rem;
+    color: hsl(0deg 0% 100%);
+    font-size: 2rem;
 }
 
 .wrap:hover .container::before,
